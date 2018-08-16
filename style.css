@@ -1,0 +1,220 @@
+/*Header----------------------------------------*/
+.header {
+  margin-bottom: 50px; }
+  .header #myNav {
+    position: fixed;
+    width: 100%; }
+  .header .icon-bar {
+    background-color: white; }
+  .header .navbar-nav {
+    float: right; }
+  .header .navbar {
+    margin-bottom: -2px; }
+  .header .navbar-brand {
+    cursor: pointer;
+    color: white; }
+  .header .myTab:hover, .header .myTab:active, .header .myTab:focus {
+    background-color: #01908b;
+    color: white; }
+  .header a {
+    color: white;
+    font-size: 18px; }
+
+/*Header----------------------------------------*/
+/*Profile---------------------------------------*/
+.center {
+  margin: auto; }
+
+.circle {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out; }
+
+.circle:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg); }
+
+#profile {
+  margin-top: 50px; }
+  #profile img {
+    width: 350px; }
+  #profile h2 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px; }
+  #profile .myform {
+    width: 300px;
+    margin-top: 30px;
+    text-align: center; }
+    #profile .myform .col-md-8, #profile .myform .col-md-4 {
+      padding: 0px; }
+    #profile .myform label {
+      color: #ffffffd6;
+      margin-bottom: 7px; }
+    #profile .myform input {
+      background-color: rgba(228, 218, 231, 0);
+      border: 1px solid #01908b;
+      border-radius: 0px 0px 12px 0px;
+      color: white; }
+    #profile .myform img {
+      width: 151px;
+      margin-top: -21px;
+      margin-left: -27px;
+      pointer: cursor;
+      cursor: pointer; }
+  #profile .social {
+    width: fit-content;
+    height: fit-content; }
+    #profile .social img {
+      width: 60px; }
+
+@media screen and (max-width: 991px) {
+  #joinWhitelist {
+    margin-top: 0px !important;
+    margin-left: 0px !important; } }
+/*Profile---------------------------------------*/
+/*Mission---------------------------------------*/
+#ourmission {
+  text-align: center;
+  margin-top: 50px; }
+  #ourmission h2 {
+    color: white;
+    font-weight: bold; }
+  #ourmission p {
+    color: #afd4d3;
+    font-size: 1.1em;
+    padding: 10px 32px;
+    font-weight: 600; }
+
+/*Mission---------------------------------------*/
+/*problems---------------------------------------*/
+#problems {
+  text-align: center;
+  margin-top: 50px; }
+  #problems h2 {
+    font-weight: bold; }
+  #problems img {
+    margin-bottom: 40px; }
+  #problems .carousel-caption {
+    margin-bottom: 40px; }
+
+/*problems---------------------------------------*/
+/*Solution---------------------------------------*/
+#oursolution {
+  text-align: center;
+  margin-top: 50px; }
+  #oursolution h2 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 40px; }
+
+#ourteam {
+  text-align: center;
+  margin-top: 50px; }
+  #ourteam h2 {
+    color: white;
+    font-weight: bold; }
+  #ourteam h4 {
+    color: #afd4d3; }
+  #ourteam h5 {
+    color: white;
+    font-style: italic; }
+  #ourteam .col-md-12 {
+    margin-bottom: 40px; }
+
+#ouradvisors {
+  text-align: center;
+  margin-top: 50px; }
+  #ouradvisors h2 {
+    color: white;
+    margin-bottom: 40px; }
+  #ouradvisors img {
+    width: 270px; }
+  #ouradvisors h4 {
+    color: #afd4d3; }
+  #ouradvisors h5 {
+    color: white;
+    font-style: italic; }
+  #ouradvisors .row {
+    margin-bottom: 30px; }
+
+#ourroadmap {
+  text-align: center;
+  margin-top: 50px; }
+  #ourroadmap h2 {
+    color: white;
+    margin-bottom: 40px; }
+  #ourroadmap img {
+    width: inherit; }
+
+#ourroadmapMobile {
+  display: none;
+  text-align: center;
+  margin-top: 50px; }
+  #ourroadmapMobile h2 {
+    color: white;
+    margin-bottom: 40px; }
+
+#roadlinkmobile {
+  display: none; }
+
+@media screen and (max-width: 600px) {
+  #ourroadmapMobile {
+    display: block; }
+
+  #roadlinkmobile {
+    display: block; }
+
+  #ourroadmap {
+    display: none; }
+
+  #roadlink {
+    display: none; } }
+#contactus {
+  margin-top: 50px; }
+  #contactus h2 {
+    color: white;
+    margin-bottom: 40px;
+    padding-left: 12px; }
+  #contactus label {
+    font-size: 1.3em;
+    color: #01908b;
+    text-transform: uppercase; }
+  #contactus input, #contactus textarea {
+    background-color: rgba(190, 210, 192, 0);
+    color: white;
+    border: 1px solid #01908b;
+    resize: none; }
+  #contactus button {
+    color: #efefef;
+    background-color: #fff0;
+    border: 1px solid #01908b;
+    margin-left: 14px; }
+  #contactus button:hover {
+    border: 1px solid #08c3a9; }
+
+#footer {
+  border-top: 1px solid black;
+  color: white;
+  margin-top: 50px;
+  overflow: auto;
+  padding: 10px; }
+  #footer .social {
+    float: right; }
+  #footer span {
+    float: left; }
+  #footer img {
+    width: 50px; }
+
+/*Solution---------------------------------------*/
+.grenBlue {
+  color: #01908b; }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(images/bg.jpg);
+  background-size: cover; }
+
+/*# sourceMappingURL=contentCss.css.map */
